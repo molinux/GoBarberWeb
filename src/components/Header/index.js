@@ -10,7 +10,7 @@ import { Container, Content, Profile } from './styles';
 export default function Header() {
   const profile = useSelector((state) => state.user.profile);
 
-  console.log('Profile: ', profile.name);
+  // console.log('Profile: ', profile.name);
 
   return (
     <Container>

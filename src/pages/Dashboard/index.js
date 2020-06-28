@@ -68,7 +68,7 @@ function Dashboard() {
     setDate(addDays(date, 1));
   }
 
-  console.log('Schedule:', schedule);
+  // console.log('Schedule:', schedule);
   return (
     <Container>
       <header>
